@@ -4,16 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Formulário</title>
+    <title>Cadastro</title>
 </head>
 <body>
-    <h1>Meu primeiro formulário</h1>
+    <div>
+    <h1>Cadastro</h1>
+    <p>Complete suas informações</p>
+    <br>
+    </div>
     <form action="cadastro.php" method= "get" autocomplete="">
+        <fieldset>
+            <div>
         <p><label for="inome">Nome:</label>
             <input type="text" name="nome" id="inome"></p>
+            </div>
+            <div>
         <p><label for="isobrenome">Sobrenome:</label>
             <input type="text" name="sobrenome" id="isobrenome"></p>
-        <p><input type="submit" value="Enviar"></p>
+        </div>
+    </fieldset>
+            <div>
+               <p><label for="iemail">Email</label>
+                <input type="text" name="email" id="iemail"></p>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+    </div>
+    
     </form>
     
 </body>
