@@ -5,18 +5,16 @@
 
 #titulo{
     font-family: sans-serif;
+    font-style:initial;
     font-size: 40px;
-    color: black;
-    margin-left: 25%;
-  
-
-
+    color: #451dbe;
+    margin-left: 20%;
 }
 
 #subtitulo{
     font-family: sans-serif;
     font-size: 20px;
-    color: #000000;
+    color: black;
     margin-left: 20%;
 }
 
@@ -25,28 +23,34 @@ fieldset{
 }
 
 body{
-    background-color: #d6cafcdc;
+    background-color: white;
     font-family: sans-serif;
     font-size: 1em;
-    height: 100vh;
-    color: black;
-    margin-left: 10%;
+    width: 40vw;
+    height: 80vh;
+    color: #451dbe;
+    margin-left: 20%;
     margin-top: 5%;
     justify-content: center;
+    padding: 0.5em;
+    border: 5px  solid #59429d;
+  
+}
+#iprof {
+    border-radius: 10px;
+    padding: 0.3em;
+    border: 2px solid #59429d;
+    box-shadow: 3x 3px 3px rgb(0,0,0,0.2);
+    display: block;
+    
 }
 
 input, select, textarea, button{
-    border-radius: 5px;
-}
-
-
-.campo{
-    margin-bottom: 0;
-
+    border-radius: 10px;
 }
 
 .campo label{
-    margin-bottom: 0.3em;
+    margin-bottom: 0.5em;
     color: black;
     font-size: 20px;
     display: block;
@@ -54,13 +58,13 @@ input, select, textarea, button{
 
 
 fieldset.grupo .campo{
-    float: left;
-    margin-right: 1em;
+    float:left;
+    margin-right: 0.5em;
 }
 
 
-.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea, .campo input[type="check"], .campo input[type="submit"] {
-    padding: 0.5em;
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea, .campo input[type="check"], .campo input[type="submit"]{
+    padding: 0.3em;
     border: 2px solid #59429d;
     box-shadow: 3x 3px 3px rgb(0,0,0,0.2);
     display: block;
@@ -72,6 +76,7 @@ fieldset.grupo .campo{
 }
 .campo input:focus, .campo select:focus, .campo textarea:focus{
     background: #E0E0F8 ;
+    
 }
 
 #label{
@@ -85,13 +90,6 @@ fieldset.grupo .campo{
     justify-content: center;
 
 }
-datalist#listprof{
-    border-radius: 2px;
-    
-   
-
-}
-
 .campo input[type="submit"]{
     font-size: 20px;
     border: 0;
@@ -109,22 +107,9 @@ datalist#listprof{
 
 .submit:hover {
 
-    background-color: #ccbbff;
-    box-shadow: 5px 5px 5px;
+    background-color: #b9acdd;
+    box-shadow: 10px 10px 10px;
     text-shadow: none;
-}
-
-
-.botao select{
-    profissao: pointer;
-}
-
-.grupo check {
-
-}
-#check{
-    display: inline-block;
-   
 }
 
 
